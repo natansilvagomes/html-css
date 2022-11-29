@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao neon </title>
+    <style>
+        .neon{
+            font-size: 64px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            color: blueviolet;
+            padding: 16px 64px;
+            border: blueviolet 8px solid;
+            border-radius: 16px;
+
+            box-shadow: inset 0 0 32px 0 blueviolet, 0 0 32px 0 blueviolet;
+            text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px;
+            position: relative;
+            
+        }
+
+        .neon::before{
+            content: "";
+            position: absolute;
+            top: 120%;
+            left: 0;
+
+            background-color: blueviolet;
+
+            width: 100%;
+            height: 100%;
+            transform: perspective(64px)rotateX('400deg') scale(1, 0.35);
+            filter: blur(64px);
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .neon::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0 0 128px 32px blueviolet;
+            opacity: 0;
+            background-color: blueviolet;
+            z-index: -1;
+            transition: opacity 100ms linear;
+        }
+        .neon:hover::before,
+        .neon:hover::after{
+            opacity: 1;
+        }
+        .neon:hover{
+            color: rgb(118, 0, 177);
+            text-shadow: none;
+        }
+
+    </style>
+</head>
+<body style="font-family: arial;">
+    <a href="#" class="neon">Neon</a>
+</body>
+</html>

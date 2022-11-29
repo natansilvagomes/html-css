@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #06A77D;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 1px;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3ba25d;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header p{
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: #06A77D;
+    display: inline-block;
+    padding: 7px;
+    margin-left: 335px;
+}
+
+nav > a abbr{
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: #0bc79597;
+    text-decoration: underline;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.423);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article #principal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > h3{
+    padding: 10px;
+}
+
+article > p{
+    text-align: justify;
+}
+
+article strong{
+    color: #2acb5f;
+}
+
+footer {
+    padding: 1px;
+    color: #00ff04;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+footer > p a{
+    text-decoration: none;
+    color: #00ff04;
+}
+
+footer > p a:hover{
+    color: #038105;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(61, 72, 223);
+    font-weight: bolder;
+}
+
+.Patrulha{
+    color: rgb(50, 149, 182);
+}
+.Minions{
+    color: rgba(205, 205, 91, 0.91);
+}
+.Angry{
+    color: rgb(95, 192, 95);
+}
+.Creeds{
+    color: rgb(87, 22, 29);
+}
+.Patrulha:hover{
+    text-decoration: underline;
+}
+.Minions:hover{
+    text-decoration: underline;
+}
+.Angry:hover{
+    text-decoration: underline;
+}
+.Creeds:hover{
+    text-decoration: underline;
+}
