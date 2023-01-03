@@ -25,8 +25,13 @@ body{
     
 }
 
+h1{
+    border-radius: 12px;
+}
+
 h1:hover{
-    background-color: rgba(255, 37, 197, 0.573);
+    background-color: rgba(218, 34, 169, 0.573);
     transition: 1s;
+    cursor: pointer;
     
 }
