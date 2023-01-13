@@ -24,7 +24,6 @@ html, body{
 header{
     color: white;
     background-color: black;
-    min-height: 110px;
     text-align: center;
     font-family: var(--font1)
 
@@ -39,7 +38,7 @@ header > h1{
 }
 
 header > p {
-    padding: 20px;
+    padding: 50px;
 }
 
 header > p a {
@@ -59,14 +58,16 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-
-
     font-size: 3.5vh;
 }
 
 section.normal{
-    
     background-color: white;
+    color: black; 
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem{
